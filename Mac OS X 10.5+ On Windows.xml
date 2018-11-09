@@ -10,7 +10,6 @@
   <action id="$Delete">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
-    <keyboard-shortcut first-keystroke="alt back_space" />
   </action>
   <action id="$Paste">
     <keyboard-shortcut first-keystroke="shift insert" />
@@ -57,6 +56,14 @@
     <keyboard-shortcut first-keystroke="alt 9" />
     <keyboard-shortcut first-keystroke="shift alt 9" />
   </action>
+  <action id="Arrangement.Alias.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Arrangement.Rule.Remove">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="AutoIndentLines">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
@@ -68,6 +75,7 @@
   <action id="CallHierarchy">
     <keyboard-shortcut first-keystroke="ctrl alt h" />
   </action>
+  <action id="ChangesView.Diff" />
   <action id="ChangesView.Move">
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
@@ -104,12 +112,22 @@
     <keyboard-shortcut first-keystroke="shift alt divide" />
     <keyboard-shortcut first-keystroke="shift alt divide" />
   </action>
+  <action id="Console.TableResult.CloneRow" />
   <action id="ContextHelp" />
+  <action id="DatabaseView.CopyAction" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="Debugger.RemoveArrayFilter">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="Debugger.RemoveCustomField">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="Diff.FocusOppositePane">
     <keyboard-shortcut first-keystroke="ctrl tab" />
@@ -124,6 +142,13 @@
   <action id="Diff.PrevChange">
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
+  </action>
+  <action id="Diff.ShowDiff">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="DomElementsTreeView.DeleteElement">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="EditSource">
     <keyboard-shortcut first-keystroke="alt down" />
@@ -179,9 +204,7 @@
   <action id="EditorDeleteToWordEnd">
     <keyboard-shortcut first-keystroke="alt delete" />
   </action>
-  <action id="EditorDeleteToWordStart">
-    <keyboard-shortcut first-keystroke="alt back_space" />
-  </action>
+  <action id="EditorDeleteToWordStart" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -381,8 +404,22 @@
     <keyboard-shortcut first-keystroke="shift ctrl b" />
     <mouse-shortcut keystroke="shift alt button1" />
   </action>
+  <action id="Graph.Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
+  <action id="GuiDesigner.Duplicate" />
   <action id="ImplementMethods">
     <keyboard-shortcut first-keystroke="ctrl i" />
+  </action>
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="JumpToLastChange">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+  </action>
+  <action id="JumpToNextChange">
+    <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl down" />
@@ -441,6 +478,10 @@
     <keyboard-shortcut first-keystroke="shift alt open_bracket" />
     <keyboard-shortcut first-keystroke="ctrl left" />
   </action>
+  <action id="PropertyInspectorActions.RemoveProperty">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="QuickChangeScheme">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
   </action>
@@ -476,14 +517,21 @@
     <keyboard-shortcut first-keystroke="alt r" />
     <keyboard-shortcut first-keystroke="f9" />
   </action>
-  <action id="Run">
-    <keyboard-shortcut first-keystroke="ctrl r" />
-  </action>
+  <action id="Run" />
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="RunDashboard.CopyConfiguration" />
+  <action id="RunDashboard.RemoveConfiguration">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
   <action id="RunDashboard.ShowConfigurations">
     <keyboard-shortcut first-keystroke="shift alt t" />
+  </action>
+  <action id="RunDashboard.UngroupConfigurations">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="RunGc" />
   <action id="SafeDelete">
@@ -520,4 +568,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
   <action id="TestGestureAction" />
+  <action id="XDebugger.CopyWatch" />
+  <action id="XDebugger.RemoveWatch">
+    <keyboard-shortcut first-keystroke="delete" />
+    <keyboard-shortcut first-keystroke="back_space" />
+  </action>
 </keymap>
