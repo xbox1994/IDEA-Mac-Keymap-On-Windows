@@ -1,4 +1,4 @@
-The most difficult thing is use Mac keymap on Windows when you use IDEA.
+The most difficult thing is I want to use Mac keymap on Windows but 【command】 is replaced with 【ctrl】.
 
 # How to use me
 ## Find your location of user-defined keymaps
