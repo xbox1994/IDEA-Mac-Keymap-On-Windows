@@ -506,9 +506,6 @@
     <keyboard-shortcut first-keystroke="shift alt l" />
   </action>
   <action id="Refresh" />
-  <action id="Replace">
-    <keyboard-shortcut first-keystroke="alt r" />
-  </action>
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift alt r" />
   </action>
@@ -575,4 +572,5 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="hg4idea.QRefresh" />
+  <action id="org.jetbrains.plugins.ruby.rails.console.ReloadSources" />
 </keymap>
