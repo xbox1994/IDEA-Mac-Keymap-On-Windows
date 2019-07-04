@@ -15,5 +15,11 @@ macOS: `~/Library/Preferences/IntelliJ IDEA<xx>/keymaps`
 关掉类似QQ那些会占用你快捷键的软件
 
 # 缺点
-IDEA内的Alt用的很爽，但跟Windows的Ctrl键不协调，另一种方式是在Windows中全局互换Ctrl和Alt，可使用这个软件：  
-http://www.pc6.com/softview/SoftView_105471.html
+IDEA内的Alt用的很爽，但跟Windows的Ctrl键不协调
+
+另一种方式是将本项目文件里的ctrl全部修改为alt，然后在Windows中全局互换Ctrl和Alt，可使用MapKeyboard
+
+但Ctrl + Tab快捷键变成了Alt + Tab很不爽，可使用AutoHotkey将Windows的切换窗口快捷键修改为Alt + Tab：
+1. 安装AutoHotkey
+2. 创建一个新的文件：xxx.ahk，内容为`LCtrl & Tab:: AltTab`
+3. 运行该文件
